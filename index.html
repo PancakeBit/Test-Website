@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft - Get ready to micro and soft</title>
+    <style>
+
+        body {
+            overflow-x:hidden;
+            overflow-y: scroll;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: #a4c0ed;
+            padding: 0;
+            margin: 0;
+        }
+        .header {
+            display: inline-block;
+            width: 100%;
+            background-color: #d5e1f5;
+            overflow:hidden;
+            padding: 10px;
+        }
+        .header>p {
+            font-size: 20pt;
+            margin-left: 20px;
+            float:left;
+        }
+        .logo {
+            margin:auto;
+            height: 60pt;
+            object-fit: contain;
+        }
+        .logo {
+            float: left;
+            margin-left: 10px;
+            margin-right: -10px;
+        }
+        .content {
+            width: 100%;
+        }
+        .content>div{
+            margin-bottom: 40px;
+            padding: 15px;
+            width: 40%;
+            margin-inline-start: 5%;
+            float:left;
+        }
+        .content img{
+            margin-right: 20px;
+            float: left;
+            width:50%;
+            height: 50%;
+        }
+
+        @media (max-width:750px)
+         {
+            .header {
+                margin:auto;
+                height: 30px;
+            }
+            .header p {
+                margin-top: auto;
+                margin-bottom: auto;
+                font-size:10pt;
+            }
+            .logo {
+                height: 20pt;
+            }
+            p {
+                font-size: large;
+            }
+            .content {
+                text-align: center;
+                margin-left:25%;
+                display: block;
+            }
+            .content>div {
+            float:none;
+                }
+            .content p {
+                font-size: 20pt;
+            }
+            img {
+                margin-left:25%;
+            }
+        }
+    </style> 
+</head>
+<body>
+    <div class="header">
+        <img src="logo.jpg" class="logo">
+        <p class="corpname">Survey Corps</p>
+        <p>Survey 365</p>
+        <p>Teams</p>
+        <p>Research</p>
+        <p>Outside</p>
+    </div>
+    <div class="content">
+        <div class="article1">
+            <img src="12.jpg">
+            <h1>Honor</h1>
+            <p>We strive to protect humanity by being the ones that are willing to head out into danger</p>
+        </div>
+        <div class="article2">
+            <img src="girl.png">
+            <h1>Anime Girls</h1>
+            <p>We also have excessively cute anime girls that will be there to cheer you on in your fight to expel the titan menace</p>
+        </div>
+</body>
+</html>
